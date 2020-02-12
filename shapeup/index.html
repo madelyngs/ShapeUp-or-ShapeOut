@@ -1,0 +1,77 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div id="inputValueContainer" class="container">
+            <div class="m-2">
+                <label for="squareSideLength">Square Side Length:</label>
+                <input id="squareSideLength" type="text">
+                <button class="btn btn-sm btn-secondary mt-1" id="squareButton" type="button">Create a Square</button>
+            </div>
+            <div class="m-2">
+                <label for="rectangleWidth">Rectangle Width:</label>
+                <input id="rectangleWidth" type="text">
+                <label for="rectangleHeight">Rectangle Height:</label>
+                <input id="rectangleHeight" type="text">
+                <button class="btn btn-sm btn-secondary mt-1" id="rectangleButton" type="button">Create a
+                    Rectangle</button>
+            </div>
+            <div class="m-2">
+                <label for="circleRadius">Circle Radius:</label>
+                <input id="circleRadius" type="text">
+                <button class="btn btn-sm btn-secondary mt-1" id="circleButton" type="button">Create a Circle</button>
+            </div>
+            <div class="m-2">
+                <label for="triangleHeight">Triangle Height:</label>
+                <input id="triangleHeight" type="text">
+                <button class="btn btn-sm btn-secondary mt-1" id="triangleButton" type="button">Create a
+                    Triangle</button>
+            </div>
+            <div class="m-2">
+                <button class="btn btn-sm btn-secondary mt-1" id="randomButton" type="button">Random Shape</button>
+            </div>
+        </div>
+        <div class="container m-4" id="drawDiv"></div>
+        <div class="container" id="displayShapeInfo">
+            <div id="displayShapeNameInfo">
+                Shape Name:
+            </div>
+            <div id="displayWidthInfo">
+                Width:
+            </div>
+            <div id="displayHeightInfo">
+                Height:
+            </div>
+            <div id="displayRadiusInfo">
+                Radius:
+            </div>
+            <div id="displayAreaInfo">
+                Area:
+            </div>
+            <div id="displayPerimeterInfo">
+                Perimeter:
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

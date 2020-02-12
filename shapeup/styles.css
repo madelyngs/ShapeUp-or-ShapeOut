@@ -1,0 +1,41 @@
+  
+#inputValueContainer {
+    width: 350px;
+    border: 1px solid black;
+  }
+  
+  #drawDiv {
+    position: relative;
+    height: 600px;
+    background-color: rgb(131, 173, 201);
+    border: 3px solid black;
+  }
+  
+  #displayShapeInfo {
+    width: 400px;
+    border: 1px solid black;
+  }
+  
+  .square {
+    position: absolute;
+    background-color: rgb(214, 166, 32);
+  }
+  
+  .rectangle {
+    position: absolute;
+    background-color: rgb(152, 85, 165);
+  }
+  
+  .circle {
+    position: absolute;
+    background-color: rgb(18, 20, 126);
+    border-radius: 50%;
+  }
+  
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: solid rgb(62, 196, 118);
+    border-right: solid transparent;
+  }
